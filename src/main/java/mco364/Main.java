@@ -11,8 +11,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.SwingUtilities;
 
+// Collection Wrappers see https://docs.oracle.com/javase/tutorial/collections/implementations/wrapper.html
+
 class App extends JFrame {
-// see https://docs.oracle.com/javase/tutorial/collections/implementations/wrapper.html
     
     class WorkerThread implements Runnable {
         public void run() {
